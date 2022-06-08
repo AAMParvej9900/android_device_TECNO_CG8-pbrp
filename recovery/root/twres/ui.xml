@@ -125,6 +125,7 @@
 		<image name="main_button_explorer" filename="main_button_explorer" retainaspect="1"/>
 		<image name="main_button_special" filename="main_button_special" retainaspect="1"/>
 		<image name="main_button_back" filename="main_button_back" retainaspect="1"/>
+		<image name="main_button_back_alt" filename="main_button_back_alt" retainaspect="1"/>
 		<image name="main_button_back2" filename="main_button_back2" retainaspect="1"/>
 		<image name="main_button_themes" filename="main_button_themes" retainaspect="1"/>
 		<image name="button_torch_on" filename="button_torch_on" retainaspect="1"/>
@@ -578,6 +579,7 @@
 				<text>{@console_btn=Console}</text>
 				<condition var1="tw_busy" var2="0"/>
 				<action function="overlay">slideout</action>
+				<image resource="main_button_back_alt"/>
 			</button>
 			<fill color="%background_color%">
 				<condition var1="tw_busy" var2="1"/>
