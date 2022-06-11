@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/tecno/CG8
+DEVICE_PATH := device/TECNO/CG8
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -146,12 +146,13 @@ TW_INCLUDE_REPACKTOOLS := true
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
 TARGET_USES_MKE2FS := true
+
 # Flag added by me but not in official TWRP sources
 # Will be submitted to gerrit
 #
 # Disables "Reflash TWRP after flashing a ROM" option (in both settings and zip install menu)
 # This **causes** AVB errors when reflashing MIUI
-TW_NO_AUTOREFLASH := true 
+TW_NO_AUTOREFLASH := true
 
 # Padding
 #TW_Y_OFFSET := 100

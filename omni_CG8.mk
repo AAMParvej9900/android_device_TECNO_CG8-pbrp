@@ -17,7 +17,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 $(call inherit-product, vendor/pb/config/common.mk)
 
 # Inherit from TECNO-CG8 device
-$(call inherit-product, device/tecno/CG8/device.mk)
+$(call inherit-product, device/TECNO/CG8/device.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := CG8
