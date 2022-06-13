@@ -36,9 +36,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 # Dynamic Partition
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
-# API
-PRODUCT_SHIPPING_API_LEVEL := 30
-
 # VNDK
 PRODUCT_TARGET_VNDK_VERSION := 30
 
