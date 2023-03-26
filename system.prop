@@ -4,4 +4,3 @@ ro.hardware.gatekeeper=beanpod
 ro.crypto.volume.filenames_mode=aes-256-cts
 ro.sys.usb.mtp.whql.enable=0
 ro.sys.usb.storage.type=mtp
-H
