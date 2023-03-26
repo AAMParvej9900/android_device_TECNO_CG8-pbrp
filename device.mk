@@ -1,11 +1,11 @@
 #
-# Copyright (C) 2021 The Android Open Source Project
-# Copyright (C) 2021 SebaUbuntu's TWRP device tree generator
+# Copyright (C) 2023 The Android Open Source Project
+# Copyright (C) 2023 SebaUbuntu's TWRP device tree generator
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/TECNO/CG8
+LOCAL_PATH := device/tecno/KG8
 
 # A/B support
 AB_OTA_UPDATER := true
