@@ -1,6 +1,6 @@
 #
-# Copyright (C) 2021 The Android Open Source Project
-# Copyright (C) 2021 SebaUbuntu's TWRP device tree generator
+# Copyright (C) 2023 The Android Open Source Project
+# Copyright (C) 2023 SebaUbuntu's TWRP device tree generator
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -16,12 +16,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 # Inherit some common TWRP stuff.
 $(call inherit-product, vendor/pb/config/common.mk)
 
-# Inherit from TECNO-CG8 device
-$(call inherit-product, device/TECNO/CG8/device.mk)
+# Inherit from tecno-KG8 device
+$(call inherit-product, device/tecno/KG8/device.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := CG8
-PRODUCT_NAME := omni_CG8
+PRODUCT_DEVICE := KG8
+PRODUCT_NAME := omni_KG8
 PRODUCT_BRAND := TECNO
-PRODUCT_MODEL := Camon 17 Pro
+PRODUCT_MODEL := Tecno Spark 8 Pro
 PRODUCT_MANUFACTURER := TECNO
